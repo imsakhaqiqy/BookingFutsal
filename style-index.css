@@ -1,0 +1,191 @@
+/*Remove the navbar's default rounded borders and increase the bottom margin */
+		.navbar{
+			margin-bottom: 50px;
+			border-radius: 0;
+			background-color: #006e51;
+			border: none;
+			font-size: 18px;
+			}
+		.nav{
+			font-family: Consolas, "Courier New", Courier, monospace;
+			}
+		.activee{
+			background-color: #004d38;
+			}
+		/*Remove the jumbotron's default bottom margin */
+		.jumbotronn{
+			margin-top:10px;
+			margin-bottom:10px;
+			margin-left:10px;
+			background-color:white !important;
+			width:50%;
+			position:relative;
+			}
+		#logo{
+			}
+		#slogan{
+			position:absolute;
+			top:70px;
+			left:90px;
+			font-family:baskerville old face,verdana;
+			font-weight:bold;
+			}
+		/* Note : Try to remove the following lines to see the effect of CSS positioning */
+		.affix{
+			top: 0;
+			width: 100%;
+			}
+		.affix + .container{
+			padding-top: 90px;
+			}
+		.carousel-inner > .item > img,
+		.carousel-inner > .item > a > img {
+			width: 70%;
+			margin: auto;
+		 }
+		/*Add a gray background color and some padding to the footer*/
+		footer{
+			background-color: #006e51;
+			padding: 0px;
+		
+			position:relative;
+			float:left;
+			width:100%;
+			}
+		body{
+			background-color:#fff;
+			}
+		.glyphicon-search{
+			
+			}
+		#cari{
+			width:100px;
+			height:50px;
+			color:black;
+			background-color:#fff;
+			font-family:verdana,sans-serif;
+			font-size:20px;
+			border:2px solid #4CAE4C;
+			border-radius:0px;
+			}
+		#cari:hover{
+			background-color:#4CAE4C;
+			border:2px solid #4CAE4C;
+			color:#fff;
+			}
+		.btn-success{
+			width:100%;
+			font-size:12pt;
+			font-family:Verdana,sans-serif;
+			color:black;
+			text-align:center;
+			background-color:#f1f1f1;
+			border:2px solid #4CAE4C;
+			}
+		.btn-success:hover{
+			background-color:#4CAE4C;
+			border:2px solid #4CAE4C;
+			}
+		input{
+			font-family:verdana,sans-serif;
+			color:black;
+			}
+		.panel-default{
+			border:1px solid #006E51;
+			box-shadow:10px 10px 5px grey;
+			}
+		.panel-default .panel-heading{
+			background-color:#006E51;
+			font-family:Verdana,sans-serif;
+			color:white;
+			}
+		.panel-default #panel-alamat{
+			height:100px;
+			}
+		.alamatnya{
+			margin-left:0px;
+			font-family:Verdana,sans-serif;
+			font-size:12pt;
+			}
+		.panel-default .panel-body{
+			background-color:#f1f1f1;
+			}
+		#pengguna{
+			margin-top: 10px;
+			margin-left: 0px;
+			color: white;
+			font-family: Consolas, "Courier New", Courier, monospace;
+			float:left;
+			width:200px;
+			}
+		#pengguna a{
+			color:#92B6D5;
+			font-family: Consolas, "Courier New", Courier, monospace;
+			}
+		#tentang{
+			margin-top: 10px;
+			color: white;
+			font-family: Consolas, "Courier New", Courier, monospace;
+			float:left;
+			width:200px;
+			}
+		#tentang a{
+			color:#92B6D5;
+			font-family: Consolas, "Courier New", Courier, monospace;
+			}
+		#halaman{
+			margin-top:0px;
+			font-family: Consolas, "Courier New", Courier, monospace;
+			color: white;
+			float:left;
+			width:100%;
+			}
+		#medsos{
+			list-style:none;
+			}
+		#medsos li{
+			display:inline;
+			}
+		#medsos li a{
+			padding:0px 10px;
+			text-decoration:none;
+			}
+		#license{
+			float:left;
+			width:100%;
+			}
+		#license .text-center{
+			color:white;
+			font-family:Consolas;
+			}
+		#license .text-center a{
+			color:#92B6D5;
+			font-family:Consolas;
+			}
+		#header.affix{
+			top: 0 !important;
+			width: 100% !important;
+			z-index:2222222;
+		}
+		.th-hari{
+			background-color:#006E51;
+			color:white;
+			text-align:center;
+			font-family:Verdana,sans-serif;
+			font-size:10pt;
+			padding:5px 10px;
+			}
+		.th-jam,.th-harga{
+			background-color:#DFEBF8;
+			text-align:center;
+			font-family:Verdana,sans-serif;
+			font-size:10pt;
+			padding:5px 10px;
+			}
+		.td-jam,.td-harga{
+			font-family:Verdana,sans-serif;
+			text-align:center;
+			font-size:9pt;
+			padding:5px 10px;
+			background-color:#f1f1f1;
+			}

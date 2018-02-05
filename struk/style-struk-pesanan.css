@@ -1,0 +1,87 @@
+/*Remove the navbar's default rounded borders and increase the bottom margin */
+		.navbar{
+			margin-bottom: 50px;
+			border-radius: 0;
+			background-color: #006E51;
+			border: none;
+			font-size: 18px;
+			}
+		.nav{
+			font-family: Consolas,"Courier New", Courier , monospace, Verdana;
+			}
+		/*Remove the jumbotron's default bottom margin */
+		.jumbotron{
+			margin-bottom: 0;
+			}
+		/*Note : Try to remove the following lines to see the effect of CSS positioning */
+		.affix{
+			top: 0;
+			width: 100%;
+			}
+		.affix + .container{
+			padding-top: 70px;
+			}
+		/*Add a gray background color and some padding to the footer */
+		footer{
+			background-color: #006E51;
+			padding: 0px;
+			height: 400px;
+			position: relative;
+			}
+		body{
+			background-color: #EEEEEE;
+			}
+		#pengguna{
+			margin-top: 10px;
+			margin-left: 50px;
+			position: absolute;
+			color: white;
+			font-family: Consolas, "Courier New", Courier, monospace, Verdana;
+			}
+		#pengguna a{
+			color: #92B6D5;
+			font-family: Consolas, "Courier New", Courier, monospace, Verdana;
+			}
+		#tentang{
+			margin-top: 10px;
+			margin-left: 200px;
+			position: absolute;
+			color: white;
+			font-family: Consolas, "Courier New", Courier, monospace, Verdana;
+			}
+		#tentang a{
+			color: #92B6D5;
+			font-family: Consolas, "Courier New", Courier, monospace, Verdana;
+			}
+		#halaman{
+			margin-top: 250px;
+			margin-left: 50px;
+			font-family: Consolas, "Courier New", Courier, monospace, Verdana;
+			color: white;
+			}
+		#medsos{
+			list-style: none;
+			margin-left: 180px;
+			margin-top: -45px;
+			}
+		#medsos li{
+			display: inline;
+			}
+		#medsos li a{
+			padding: 5px 10px;
+			text-decoration: none;
+			}
+		#header.affix{
+			top: 0 !important;
+			width: 100% !important;
+			z-index: 2222222;
+			}
+		.a1{
+			text-align:right;
+			}
+		.b1{
+			width:80px;
+			}
+		.b2{
+			width:150px;
+			}

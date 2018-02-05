@@ -1,0 +1,169 @@
+/*Remove the navbar's default rounded borders and increase the bottom margin*/
+		.navbar{
+			margin-bottom: 50px;
+			border-radius: 0;
+			background-color: #006e51;	
+			border:none;
+			font-size: 18px;
+			}
+		.nav{
+			font-family: Consolas, "Courier New", Courier, monospace;
+			}
+		.activee{
+			background-color: #004d38;
+			}
+		/*Remove the jumbotron's default bottom margin*/
+		.jumbotronn{
+			margin-bottom: 0;
+			background-color:#FFF !important;
+			height:400px;
+			}
+		/* Note : Try to remove the following lines to see the effect of CSS positioning */
+		.affix{
+			top: 0;
+			width: 100%;
+			}
+		.affix + .container{
+			margin-top: 100px;
+			}
+		/*Add a gray background color and some padding to the footer*/
+		footer{
+			background-color: #006e51;
+			padding: 0px;
+			position:relative;
+			float:left;
+			width:100%;
+			}
+		body{
+			background-color:#fff;
+			}
+		.btn-success{
+			width:100px;
+			font-family:Verdana,sans-serif;
+			color:black;
+			background-color:#f1f1f1;
+			border:2px solid #4CAE4C;
+			border-radius:0px;
+			font-size:12pt;
+			}
+		option{
+			color:black;
+			font-family:Verdana,sans-serif;
+			}
+		.btn-success:hover{
+			background-color:#4CAE4C;
+			border:2px solid #4CAE4C;
+			}
+		h5,#nama,#alamat,#hasil_jenis{
+			color:black;
+			font-family:Verdana,sans-serif;
+			}
+		hr{
+			border:2px solid #006e51
+			}
+		.container-jadwal{
+			width:80%;
+			margin:0 auto;
+			}
+		#jlokasi{
+			float:left;
+			}
+		.panel-primary{
+			border:2px solid #006e51;
+			box-shadow:10px 10px 5px grey;
+			background-color:#f1f1f1;
+			}
+		.panel-primary .panel-heading{
+			font-size:22px;
+			background-color:#006e51;
+			border:2px solid #006e51;
+			font-family:Consolas,'Courier New',Courier,monospace;
+			text-align:center;
+			}
+		.panel-primary .panel-body{
+			background-color:#f1f1f1;
+			}
+		.panel-primary .panel-footer{
+			background-color:#f1f1f1;
+			}
+		.table{
+			text-align:center;
+			margin-top:-50px;
+			width:100%;
+			}
+		.td-judul{
+			text-align:center;
+			font-size:18px;
+			font-family:Verdana,sans-serif;
+			}
+		.td-index{
+			border-bottom:1px solid black;
+			color:black;
+			font-family:Verdana,sans-serif;
+			}
+		.td-index-pesan{
+			border-bottom:1px solid black;
+			}
+		.td-index-pesan-tombol{
+			background-color:grey;
+			font-size:14px;
+			color:white;
+			border:none;
+			width:100%;
+			top:0px;
+			height:100%;
+			font-family:Verdana,sans-serif;
+			border-radius:25px;
+			}
+		#pengguna{
+			margin-top: 10px;
+			margin-left: 0px;
+			color: white;
+			font-family: Consolas, "Courier New", Courier, monospace;
+			float:left;
+			width:200px;
+			}
+		#pengguna a{
+			color:#92B6D5;
+			font-family: Consolas, "Courier New", Courier, monospace;
+			}
+		#tentang{
+			margin-top: 10px;
+			color: white;
+			font-family: Consolas, "Courier New", Courier, monospace;
+			float:left;
+			width:200px;
+			}
+		#tentang a{
+			color:#92B6D5;
+			font-family: Consolas, "Courier New", Courier, monospace;
+			}
+		#halaman{
+			margin-top:0px;
+			font-family: Consolas, "Courier New", Courier, monospace;
+			color: white;
+			float:left;
+			width:100%;
+			}
+		#medsos{
+			list-style:none;
+			}
+		#medsos li{
+			display:inline;
+			}
+		#medsos li a{
+			padding:0px 10px;
+			text-decoration:none;
+			}
+		#license{
+			float:left;
+			width:100%;
+			}
+		#header.affix{
+			top: 0 !important;
+			width: 100%!important;
+			z-index: 2222222;
+			}
+		h2{
+			font-family:Verdana,sans-serif;
+			}
